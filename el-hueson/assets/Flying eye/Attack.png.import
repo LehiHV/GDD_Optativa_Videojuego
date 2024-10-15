@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqtal4cw503dd"
-path="res://.godot/imported/atk wk 3_sprite_1.png-77a9a66b21f73ca14da00b261476c8c5.ctex"
+uid="uid://b0vuno15itxpl"
+path="res://.godot/imported/Attack.png-7e3ac714bdd6e4b42c73a24ba8262e9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Wukong enemy 1/atk wk 3_sprite_1.png"
-dest_files=["res://.godot/imported/atk wk 3_sprite_1.png-77a9a66b21f73ca14da00b261476c8c5.ctex"]
+source_file="res://assets/Flying eye/Attack.png"
+dest_files=["res://.godot/imported/Attack.png-7e3ac714bdd6e4b42c73a24ba8262e9e.ctex"]
 
 [params]
 
