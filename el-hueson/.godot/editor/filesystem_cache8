@@ -1,5 +1,62 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728602409
-icon.svg::CompressedTexture2D::2658811592066719670::1728602409::1728602415::1::::<><>::
-node_2d.tscn::PackedScene::-1::1728602409::0::1::::<><>::
+::res://::1728950764
+icon.svg::CompressedTexture2D::2838451096095267133::1728602524::1728602639::1::::<><>::
 README.md::TextFile::-1::1728565522::0::1::::<><>::
+::res://assets/::1728950608
+::res://assets/Skeleton/::1728602524
+::res://assets/Skeleton/Files/::1728602524
+::res://assets/Skeleton/GIFS/::1728602524
+::res://assets/Skeleton/Sprite Sheets/::1728602524
+Skeleton Attack.png::CompressedTexture2D::7384637223397961996::1728602524::1728602524::1::::<><>::
+Skeleton Dead.png::CompressedTexture2D::2467841617847034125::1728602524::1728602524::1::::<><>::
+Skeleton Hit.png::CompressedTexture2D::3538505573324416730::1728602524::1728602524::1::::<><>::
+Skeleton Idle.png::CompressedTexture2D::1319568781539758908::1728602524::1728602524::1::::<><>::
+Skeleton React.png::CompressedTexture2D::7262183312704176044::1728602524::1728602524::1::::<><>::
+Skeleton Walk.png::CompressedTexture2D::2288753208589098638::1728602524::1728602524::1::::<><>::
+::res://assets/World/::1728602524
+clouds.png::CompressedTexture2D::3792773202797275765::1728602524::1728602524::1::::<><>::
+far-grounds.png::CompressedTexture2D::8931227690548713563::1728602524::1728602524::1::::<><>::
+parallax_background.tscn::PackedScene::3510259257442017218::1728602524::0::1::::<><>::uid://ckq16f1wlb5xx::::res://World/sky.png<>uid://bubiokecv02fh::::res://World/clouds.png<>uid://b56bqv84uu7ja::::res://World/sea.png<>uid://d0imarthe77sx::::res://World/far-grounds.png
+sea.png::CompressedTexture2D::4556172148219246578::1728602524::1728602524::1::::<><>::
+sky.png::CompressedTexture2D::5509394153050481557::1728602524::1728602524::1::::<><>::
+tileset.png::CompressedTexture2D::752238033022104806::1728602524::1728602524::1::::<><>::
+world-tileset.tres::TileSet::4807989238419567935::1728602524::0::1::::<><>::uid://kynirtw4oukc::::res://assets/World/tileset.png
+world.tscn::PackedScene::6952009096337019688::1728602524::0::1::::<><>::uid://bqanpsoo6txmg::::res://World/parallax_background.tscn<>uid://cara46vlt5bdv::::res://World/world-tileset.tres<>uid://ck27fml4xglci::::res://Player/player.tscn<>uid://b4e6xjdud6i7e::::res://Enemies/Fox/fox.tscn<>uid://dmnu0v35av54x::::res://Enemies/ShurikenDude/shuriken_dude.tscn<>uid://bi6ji1svotjvd::::res://Music/magic cliffs.ogg
+::res://assets/Wukong enemy 1/::1728950608
+atk wk 2_sprite_1.png::CompressedTexture2D::910988308281744797::1728950608::1728950765::1::::<><>::
+atk wk 2_sprite_2.png::CompressedTexture2D::4544835137615769483::1728950608::1728950765::1::::<><>::
+atk wk 2_sprite_3.png::CompressedTexture2D::6178769151265048702::1728950608::1728950765::1::::<><>::
+atk wk 2_sprite_4.png::CompressedTexture2D::8451881670827091375::1728950608::1728950765::1::::<><>::
+atk wk 3_sprite_1.png::CompressedTexture2D::5625839085268541456::1728950608::1728950765::1::::<><>::
+atk wk 3_sprite_2.png::CompressedTexture2D::424868127172235886::1728950608::1728950765::1::::<><>::
+atk wk 3_sprite_3.png::CompressedTexture2D::6739520568766998419::1728950608::1728950765::1::::<><>::
+atk wk 3_sprite_4.png::CompressedTexture2D::7911935893422722981::1728950608::1728950765::1::::<><>::
+atk wk_sprite_1.png::CompressedTexture2D::8379886816635415731::1728950608::1728950765::1::::<><>::
+atk wk_sprite_2.png::CompressedTexture2D::7708997758081264674::1728950608::1728950765::1::::<><>::
+atk wk_sprite_3.png::CompressedTexture2D::3994754183766293170::1728950608::1728950765::1::::<><>::
+atk wk_sprite_4.png::CompressedTexture2D::9164414601722408812::1728950608::1728950765::1::::<><>::
+jumpwk_sprite_1.png::CompressedTexture2D::6348753157450758981::1728950608::1728950765::1::::<><>::
+jumpwk_sprite_2.png::CompressedTexture2D::1743928866541515984::1728950608::1728950765::1::::<><>::
+jumpwk_sprite_3.png::CompressedTexture2D::5457113014863138528::1728950608::1728950765::1::::<><>::
+jumpwk_sprite_4.png::CompressedTexture2D::7457440576225069570::1728950608::1728950765::1::::<><>::
+run wk_sprite_1.png::CompressedTexture2D::7011263346781030862::1728950608::1728950765::1::::<><>::
+run wk_sprite_2.png::CompressedTexture2D::7856294668405739788::1728950608::1728950765::1::::<><>::
+run wk_sprite_3.png::CompressedTexture2D::1104654347424535920::1728950608::1728950765::1::::<><>::
+run wk_sprite_4.png::CompressedTexture2D::5603612484164522798::1728950608::1728950765::1::::<><>::
+run_sprite_1.png::CompressedTexture2D::6898752768938893976::1728950608::1728950765::1::::<><>::
+run_sprite_2.png::CompressedTexture2D::1782469984542232214::1728950608::1728950765::1::::<><>::
+run_sprite_3.png::CompressedTexture2D::7617151194001413756::1728950608::1728950765::1::::<><>::
+run_sprite_4.png::CompressedTexture2D::5291540743759544525::1728950608::1728950765::1::::<><>::
+stand wk_sprite_1.png::CompressedTexture2D::1995258741201464159::1728950608::1728950765::1::::<><>::
+stand wk_sprite_2.png::CompressedTexture2D::84646730468599996::1728950608::1728950765::1::::<><>::
+stand wk_sprite_3.png::CompressedTexture2D::2709916995057935597::1728950608::1728950765::1::::<><>::
+stand wk_sprite_4.png::CompressedTexture2D::7453728393586621747::1728950608::1728950765::1::::<><>::
+stand_sprite_1.png::CompressedTexture2D::8342680790147088626::1728950608::1728950765::1::::<><>::
+stand_sprite_2.png::CompressedTexture2D::8486308537974257947::1728950608::1728950765::1::::<><>::
+stand_sprite_3.png::CompressedTexture2D::4712651618159484680::1728950608::1728950765::1::::<><>::
+stand_sprite_4.png::CompressedTexture2D::3561672028726991581::1728950608::1728950765::1::::<><>::
+::res://scenes/::1728853722
+game.tscn::PackedScene::116794566609522716::1728853722::0::1::::<><>::uid://cb8q3grsqxthh::::res://scenes/player.tscn<>uid://kynirtw4oukc::::res://assets/World/tileset.png
+player.tscn::PackedScene::4912176493263728761::1728853722::0::1::::<><>::res://scripts/player.gd<>uid://s2hdtorp3rea::::res://assets/Skeleton/Sprite Sheets/Skeleton Idle.png
+::res://scripts/::1728602524
+player.gd::GDScript::-1::1728602524::0::1::::<>CharacterBody2D<>::
