@@ -1748,7 +1748,7 @@ zoom = Vector2(2, 2)
 
 [node name="Clouds" type="Sprite2D" parent="."]
 position = Vector2(370.99, 359)
-scale = Vector2(-3.71763e-05, -7.60789e-08)
+scale = Vector2(-3.71763e-05, 1e-05)
 texture = ExtResource("3_3ajth")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
