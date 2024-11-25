@@ -1,10 +1,14 @@
-AudioStreamPlayer
 Sprite2D
+Label
+ProgressBar
+TextureProgressBar
+ItemList
+Panel
+Control
+AudioStreamPlayer
 ParallaxLayer
 ParallaxBackground
 TileMap
 CollisionShape2D
 StaticBody2D
 Camera2D
-AnimatedSprite2D
-CharacterBody2D

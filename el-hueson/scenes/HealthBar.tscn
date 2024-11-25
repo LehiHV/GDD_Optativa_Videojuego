@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://bucrxgpqgxx53"]
+
+[ext_resource type="Script" path="res://scenes/HealthBar.gd" id="1_oj6sn"]
+[ext_resource type="Texture2D" uid="uid://bsiu0yfu4xp4c" path="res://assets/UI/progress.png" id="2_sbbvg"]
+
+[node name="HealthBar" type="Control"]
+layout_mode = 3
+anchor_right = 0.099
+anchor_bottom = 0.085
+offset_right = -0.0480042
+offset_bottom = -0.0800018
+script = ExtResource("1_oj6sn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(57, 36)
+scale = Vector2(2.39362, 1.18182)
+texture = ExtResource("2_sbbvg")
+
+[node name="HealthProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 30.0
+offset_right = 105.0
+offset_bottom = 42.0
+max_value = 3.0
+value = 1.0
+show_percentage = false
+
+[node name="HealthLabel" type="Label" parent="."]
+layout_mode = 0
+offset_top = 10.0
+offset_right = 113.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 9
+text = "Healt: 3"
+horizontal_alignment = 1
+vertical_alignment = 1
