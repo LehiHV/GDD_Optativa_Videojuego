@@ -1,11 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://bwtubnw2bgj1"]
+[gd_scene load_steps=10 format=3 uid="uid://bwtubnw2bgj1"]
 
 [ext_resource type="PackedScene" uid="uid://cb8q3grsqxthh" path="res://scenes/player.tscn" id="1_apwib"]
 [ext_resource type="Texture2D" uid="uid://kynirtw4oukc" path="res://assets/World/tileset.png" id="2_ha7or"]
 [ext_resource type="PackedScene" uid="uid://bqanpsoo6txmg" path="res://assets/World/parallax_background.tscn" id="3_5ivw8"]
-[ext_resource type="AudioStream" uid="uid://dq123re4dtyrr" path="res://assets/Game-Over-sound-effect.ogg" id="4_1lgbp"]
-[ext_resource type="AudioStream" uid="uid://bbibhnvt81bhv" path="res://assets/RPG-Game-Music-Asset-Pack.ogg" id="4_ki023"]
-[ext_resource type="AudioStream" uid="uid://l4u4mehs4lnx" path="res://assets/Effecto-de-sonido-de-salto-retro-para-juegos-de-8Bits-_1.ogg" id="6_frsy7"]
+[ext_resource type="PackedScene" uid="uid://bucrxgpqgxx53" path="res://scenes/HealthBar.tscn" id="3_lw5q7"]
+[ext_resource type="AudioStream" path="res://assets/Game-Over-sound-effect.ogg" id="4_1lgbp"]
+[ext_resource type="AudioStream" path="res://assets/RPG-Game-Music-Asset-Pack.ogg" id="4_ki023"]
+[ext_resource type="AudioStream" path="res://assets/Effecto-de-sonido-de-salto-retro-para-juegos-de-8Bits-_1.ogg" id="6_frsy7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8el3v"]
 texture = ExtResource("2_ha7or")
@@ -1745,6 +1746,12 @@ position = Vector2(1, -1)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(5, -92)
 zoom = Vector2(2, 2)
+
+[node name="HealthBar" parent="Player" instance=ExtResource("3_lw5q7")]
+offset_left = 178.0
+offset_top = -262.0
+offset_right = 178.0
+offset_bottom = -262.0
 
 [node name="ParallaxBackground2" parent="." instance=ExtResource("3_5ivw8")]
 

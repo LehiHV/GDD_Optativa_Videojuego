@@ -1,3 +1,7 @@
 res://scenes/game.tscn
 res://scenes/player.tscn
 res://scripts/player.gd
+res://scenes/LifeBar.tscn
+res://scenes/HealtBar.tscn
+res://scenes/HealthBar.tscn
+res://scenes/HealthBar.gd
