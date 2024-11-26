@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3 uid="uid://bv1rip6qutu1n"]
+
+[ext_resource type="Texture2D" uid="uid://duqd8n23xhqeu" path="res://assets/Menu/Menu.jpg" id="1_p5thb"]
+[ext_resource type="Script" path="res://scripts/menu.gd" id="2_6t7h7"]
+[ext_resource type="AudioStream" uid="uid://bft20xbmecu5y" path="res://assets/Menu_sound.ogg" id="2_nu3dg"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 126.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_6t7h7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(255.5, 454.75)
+scale = Vector2(0.794671, 0.947451)
+texture = ExtResource("1_p5thb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 614.0
+offset_right = 388.0
+offset_bottom = 881.0
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+modulate = Color(1, 1, 1, 0.956863)
+layout_mode = 2
+theme_override_colors/font_hover_pressed_color = Color(1, 0.87451, 0, 1)
+theme_override_colors/font_hover_color = Color(0.537071, 0.504633, 0.546838, 1)
+theme_override_colors/font_focus_color = Color(1, 0.87451, 0, 1)
+theme_override_colors/font_color = Color(1, 0.87451, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Jugar"
+flat = true
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+modulate = Color(1, 1, 1, 0.956863)
+layout_mode = 2
+theme_override_colors/font_hover_pressed_color = Color(1, 0.87451, 0, 1)
+theme_override_colors/font_hover_color = Color(0.537071, 0.504633, 0.546838, 1)
+theme_override_colors/font_focus_color = Color(1, 0.87451, 0, 1)
+theme_override_colors/font_color = Color(1, 0.87451, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Cerrar"
+flat = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_nu3dg")
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
