@@ -14,5 +14,3 @@ func _process(delta):
 func set_health(value: int):
 	HealthLabel.text = "Health: %s" % value
 	HealthBar.value = value
-
-
