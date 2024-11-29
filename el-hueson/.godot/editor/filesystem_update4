@@ -1,11 +1,6 @@
-res://punto_final.tscn
-res://scenes/HealthBar.gd
-res://vista_final.tscn
-res://vista_final.gd
 res://scenes/game.tscn
-res://scenes/player.tscn
-res://scenes/HealthBar.tscn
-res://punto_final.gd
-res://scripts/punto_final.gd
 res://scenes/punto_final.tscn
 res://scenes/vista_final.tscn
+res://scenes/player.tscn
+res://enemy.gd
+res://enemy.tscn

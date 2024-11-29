@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bwtubnw2bgj1"]
+[gd_scene load_steps=12 format=3 uid="uid://bwtubnw2bgj1"]
 
 [ext_resource type="PackedScene" uid="uid://cb8q3grsqxthh" path="res://scenes/player.tscn" id="1_apwib"]
 [ext_resource type="Texture2D" uid="uid://kynirtw4oukc" path="res://assets/World/tileset.png" id="2_ha7or"]
@@ -8,6 +8,7 @@
 [ext_resource type="AudioStream" uid="uid://dq123re4dtyrr" path="res://assets/Game-Over-sound-effect.ogg" id="4_1lgbp"]
 [ext_resource type="AudioStream" uid="uid://bbibhnvt81bhv" path="res://assets/RPG-Game-Music-Asset-Pack.ogg" id="4_ki023"]
 [ext_resource type="AudioStream" uid="uid://l4u4mehs4lnx" path="res://assets/Effecto-de-sonido-de-salto-retro-para-juegos-de-8Bits-_1.ogg" id="6_frsy7"]
+[ext_resource type="PackedScene" uid="uid://wqhbrfy65tt" path="res://enemy.tscn" id="9_pbg36"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8el3v"]
 texture = ExtResource("2_ha7or")
@@ -841,3 +842,6 @@ stream = ExtResource("4_ki023")
 
 [node name="Jump" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_frsy7")
+
+[node name="enemy" parent="." instance=ExtResource("9_pbg36")]
+position = Vector2(-110, -14)
